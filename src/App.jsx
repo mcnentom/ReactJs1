@@ -27,7 +27,7 @@ const App = () => {
   };
 
   return (
-    <div className='main-body'>
+ 
       <div className='general-div'>
         <h2>Todo List</h2>
         <ul>
@@ -46,7 +46,6 @@ const App = () => {
           <button onClick={handleAddTodo}>Add Todo</button>
         </div>
       </div>
-    </div>
   );
 };
 
