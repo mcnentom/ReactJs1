@@ -1,0 +1,41 @@
+body,html{
+    width: 100%;
+
+    .color{
+        font-style: italic;
+    }
+.input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input{
+        width: 60%;
+        height: 1.5rem;
+    }
+}
+
+    .general-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        .main-content{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            .catmapping{
+                width: 100%;
+                height: 100%;
+                
+
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+
+    }
+}
