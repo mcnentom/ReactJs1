@@ -1,0 +1,30 @@
+body {
+    .general-div {
+        width: 100%;
+
+        .dataMapped {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 1rem;
+            list-style: none;
+        }
+    }
+
+   
+}
+@media screen and (max-width: 600px) {
+    body{
+        width: 90%;
+        
+        
+        .general-div{
+            width: 90%;
+            
+            
+            .dataMapped{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+}
