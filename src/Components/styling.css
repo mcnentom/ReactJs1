@@ -1,0 +1,12 @@
+.description{
+    display: none;
+}
+.general:hover .description{
+    display: block;
+}
+.image-div{
+    width: 100%;
+}
+.image-div img{
+    width: 80%;
+}
