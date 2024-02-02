@@ -10,7 +10,7 @@ const Navbar = ({ toggleCard }) => {
   return (
     <div className='general'>
       <FaShoppingCart onClick={toggleCard} />
-      <p onClick={toggleCard}>Count: {state.count}</p>
+      <p onClick={toggleCard}>Count : {state.count}</p>
 
     </div>
   );

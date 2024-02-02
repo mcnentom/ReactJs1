@@ -1,12 +1,40 @@
-.description{
-    display: none;
-}
-.general:hover .description{
-    display: block;
-}
+
 .image-div{
     width: 100%;
 }
 .image-div img{
-    width: 80%;
+    width: 90%;
+}
+.general{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    border: 2px solid #ccc;
+    padding: .6rem;
+    cursor: pointer;
+    box-shadow: 1px 8px rgba(0,156,209,0.1);
+    height: 1rem;
+    border-radius: 1rem;
+    /* width: fit-content; */
+}
+.myCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ccc;
+    box-shadow: 1px 8px rgba(0,156,209,0.1);
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 55%;
+    border-radius: 1rem;
+
+}
+.content-div{
+    position: fixed;
+    left: 10%;
+    width: fit-content;
+    top: 20%;
 }
